@@ -1,0 +1,32 @@
+header{
+        height: 5rem;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        z-index: 99;
+        background-color: red;
+        color: black;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+ }
+ .logo{
+    width: 7rem;
+    display: block;
+}
+nav{
+    display: flex;
+    gap: 3.5rem;
+    background-color: yellow;
+    
+}
+.nav-soicals{
+    
+}

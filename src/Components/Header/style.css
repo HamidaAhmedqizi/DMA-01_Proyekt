@@ -1,0 +1,10 @@
+.containerHeader{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+top: 5rem;
+width: 1024px;
+height: 302px;
+left: 208px;
+}

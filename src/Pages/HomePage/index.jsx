@@ -1,10 +1,13 @@
 import React from 'react'
-import Navigation from '../../Components/Navigation'
+import Header from '../../Components/Header'
+import Brands from '../../Components/Brands'
 
 const HomePage = () => {
   return (
     <div>
-      <Navigation/>
+      <Header/>
+      <Brands/>
+      
     </div>
   )
 }
