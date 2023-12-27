@@ -1,0 +1,118 @@
+/* .videos {
+    
+    background-color: black;
+   
+   
+  }
+
+
+.video_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+    
+    
+}
+.video_youtube {
+    width: 19rem;
+    height:112px;
+    background-color: 
+    #503AE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    position: absolute;
+    z-index: 6;
+    bottom: 12%;
+    left: 59%;
+    padding: 0 14rem;
+
+} */
+/* style.css */
+
+.videos {
+   
+    padding: 40px 40px; /* İhtiyaca göre dolgu ayarlayın */
+  }
+  
+  .video_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  .video_left {
+    position: relative;
+  }
+  
+  .video_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* İhtiyaca göre kenar yuvarlaklığını ayarlayın */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* İhtiyaca göre gölge ekleyin */
+   
+  }
+  
+  .video_youtube {
+    width: 19rem;
+    height: 112px;
+    margin-top: 20px; /* İhtiyaca göre boşluk ayarlayın */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 2rem;
+    left: 30rem;
+    gap: 1.4rem;
+    background: 
+    #503AE7;
+  }
+  
+  .video_youtube img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffff
+    ; /* İhtiyaca göre metin rengini ayarlayın */
+  }
+  .video-right {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    flex: 1;
+    position: relative;
+  }
+  
+  .video-right img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* İhtiyaca göre boşluk ayarlayın */
+    position: absolute;
+    left: 20rem;
+  }
+  
+  .video-text {
+    padding: 0 20px; /* İhtiyaca göre iç boşluk ayarlayın */
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #14142B; /* İhtiyaca göre metin rengini ayarlayın */
+  }
+  
+  p {
+    font-size: 16px;
+    color: #14142B; /* İhtiyaca göre metin rengini ayarlayın */
+  }
+  
