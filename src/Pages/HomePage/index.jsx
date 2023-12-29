@@ -5,6 +5,9 @@ import Podcasts1 from '../../Components/Podcasts'
 import Videos from '../../Components/Videos'
 import Subscribe from '../../Components/Subscribe'
 import Sponsors from '../../Components/Sponsors'
+import Footers from '../../Components/Footers'
+
+
 
 const HomePage = () => {
   return (
@@ -15,7 +18,10 @@ const HomePage = () => {
       <Videos/>
       <Subscribe/>
       <Sponsors/>
+      <Footers/>
       
+      
+    
     </div>
   )
 }
