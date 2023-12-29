@@ -1,0 +1,26 @@
+.sponsors {
+    padding: 0 8rem;
+}
+.sponsors_container{
+    width: 100%;
+    height: 17rem;
+    background: 
+    #503AE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.sponsors_logos {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+h2{
+font-size: 2rem;
+font-weight: 700;
+line-height: 34.4px;
+color: white;
+
+}
