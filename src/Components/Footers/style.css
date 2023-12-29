@@ -1,9 +1,15 @@
+.footer {
+    margin-top: -9rem;
+    position: relative;
+    z-index: -2;
+}
 .footer_container{
     background: red;
 }
 .footer_pages{
     display: flex;
     flex-direction: column;
+    background: yellow;
     
 }
 .footer_container {
@@ -14,15 +20,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 27rem;
+    gap: 10rem;
 }
 .footer_title_pages .footer_pages {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-}
-.footer_container-item {
-    display: flex;
-    /* align-items: center; */
-    gap: 20rem;
 }

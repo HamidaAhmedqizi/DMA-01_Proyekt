@@ -14,11 +14,15 @@ const index = () => {
   return (
     <section className='footer'>
       <div className="footer_container">
-        <div className="footer_container_item">
-          <div className="logo">
-            <Link to='/'>
+       <div className='footer_title_pages'>
+       <div className='logo'>
+          <Link to='/'>
               <img src={Logo_footer} alt="" />
             </Link>
+          </div>
+       </div>
+         
+          
             <div className="footer_title_pages">
               <div className="footer_title">
                 <h4>Pages</h4>
@@ -33,7 +37,7 @@ const index = () => {
 
               </div>
             </div>
-            <div className="foot_container_item">
+            
               <div className='footer_title_pages' >
                 <div className="footer_title">
                   <h4>Reach Us</h4>
@@ -49,7 +53,7 @@ const index = () => {
                       ))
                   }
                 </div>
-                
+
               </div>
 
               <div className="footer_title_pages">
@@ -69,11 +73,11 @@ const index = () => {
                 </div>
               </div>
             </div>
-          </div>
+         
 
-        </div>
+        
 
-      </div>
+      
 
     </section>
   )
