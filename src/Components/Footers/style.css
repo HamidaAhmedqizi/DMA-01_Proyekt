@@ -6,10 +6,13 @@
 .footer_container{
     background: red;
 }
+.footer_container_item{
+    background: green;
+}
 .footer_pages{
     display: flex;
     flex-direction: column;
-    background: yellow;
+    /* background: yellow; */
     
 }
 .footer_container {
