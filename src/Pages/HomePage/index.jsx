@@ -5,8 +5,8 @@ import Podcasts1 from '../../Components/Podcasts'
 import Videos from '../../Components/Videos'
 import Subscribe from '../../Components/Subscribe'
 import Sponsors from '../../Components/Sponsors'
-import Footers from '../../Components/Footers'
-import Copyright from '../../Components/Copyright/copyright'
+import CopyRight from '../../Components/CopyRight'
+
 
 
 
@@ -20,7 +20,10 @@ const HomePage = () => {
       <Subscribe/>
       <Sponsors/>
       <Footers/>
-      <Copyright/>
+      <CopyRight/>
+      
+      
+    
       
       
       

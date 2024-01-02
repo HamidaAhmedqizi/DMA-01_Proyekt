@@ -7,10 +7,13 @@ import '../node_modules/bootstrap/dist/css/bootstrap-grid.css'
 import Navigation from './Components/Navigation/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- <BrowserRouter>
-<Navigation/>
-   <App />
- </BrowserRouter>
-  
-  
+  <React.StrictMode>
+    <BrowserRouter>
+      <Navigation />
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+
+
+
 )
