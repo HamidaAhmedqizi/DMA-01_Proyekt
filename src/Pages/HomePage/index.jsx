@@ -6,6 +6,7 @@ import Videos from '../../Components/Videos'
 import Subscribe from '../../Components/Subscribe'
 import Sponsors from '../../Components/Sponsors'
 import Footers from '../../Components/Footers'
+import Copyright from '../../Components/Copyright/copyright'
 
 
 
@@ -19,6 +20,8 @@ const HomePage = () => {
       <Subscribe/>
       <Sponsors/>
       <Footers/>
+      <Copyright/>
+      
       
       
     

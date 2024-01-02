@@ -7,18 +7,20 @@
     background: red;
 }
 .footer_container_item{
-    background: green;
+    
 }
 .footer_pages{
     display: flex;
     flex-direction: column;
     /* background: yellow; */
+    color: white;
     
 }
 .footer_container {
     width: 100%;
     min-height: 57.4rem;
-    background-color: red;
+    background-color: 
+    #14142B;
     padding: 0 8rem;
     display: flex;
     justify-content: space-between;
