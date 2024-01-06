@@ -20,7 +20,7 @@ const Brands = () => {
     <div className='containerBrands'>
       <div className='Image'>
         <Swiper
-          s spaceBetween={100}
+           spaceBetween={100}
           loop
           slidesPerView={5}
           autoplay={{
