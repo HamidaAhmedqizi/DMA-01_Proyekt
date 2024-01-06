@@ -7,6 +7,8 @@ import Videos from '../../Components/Videos'
 import Subscribe from '../../Components/Subscribe'
 import Sponsors from '../../Components/Sponsors'
 import CopyRight from '../../Components/Copyright'
+import CommentsC from '../../Components/CommentsC'
+import Episode from '../../Components/Episode'
 
 
 
@@ -14,21 +16,23 @@ import CopyRight from '../../Components/Copyright'
 const HomePage = () => {
   return (
     <div>
-      <Header/>
-      <Brands/>
-      <Podcasts1/>
-      <Videos/>
-      <Subscribe/>
-      <Sponsors/>
-      <Footers/>
-      <CopyRight/>
-      
-      
-    
-      
-      
-      
-    
+      <Header />
+      <Brands />
+      <Podcasts1 />
+      <Videos />
+      <Subscribe />
+      <Sponsors />
+      <Episode/>
+      <CommentsC />
+      <Footers />
+      <CopyRight />
+
+
+
+
+
+
+
     </div>
   )
 }

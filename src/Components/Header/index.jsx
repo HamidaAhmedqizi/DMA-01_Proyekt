@@ -10,12 +10,12 @@ const Header = () => {
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
           invidunt ut labore et dolore magna aliquyam erat.</p>
         <div className='Subscribe'>
-          <input type="email" name="" id="" />
+          <input type="email" placeholder='Enter Your Email Id' name="" id="" />
           <button>Subscribe</button>
         </div>
       </div>
       <div className="rigtSide">
-        <img src={images}alt="" />
+        <img src={images} alt="" />
       </div>
 
     </div>

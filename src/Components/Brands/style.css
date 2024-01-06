@@ -1,16 +1,16 @@
 .containerBrands{
-    width: 1280px;
-    height: 37px;
-    display: flex;
-    justify-content: space-around;
-   align-items: center;
-    background-color: red;
-    position: relative;
-    left: 50px;
+    width: 100%;
+    padding-bottom: 128px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .Image{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+}
+
+.Image article img {
+    width: 200px;
+    height: 36px;
 }

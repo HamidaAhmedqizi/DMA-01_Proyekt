@@ -13,24 +13,30 @@ import speakingSingleLine from '../../Images/speaking_single_line.png'
 const Podcasts1 = () => {
     return ( 
         <section className='Podcast'>
-            <div className='containerPodcasts'> {/* Değiştirilen kısım: className='containerPodcasts' */}
-                <div className="leftContainer">
-                    <img className='Line' src={Line} alt="" />
-                    <img className='Line1' src={line1} alt="" />
-                    <img className='Line2' src={line2} alt="" />
-                    <div className="content">
-                        <h2>A podcast for makers and entrepreneurs</h2>
-                        <body>
+            <div className='pod_containerPodcasts'> {/* Değiştirilen kısım: className='containerPodcasts' */}
+                <div className="pod_leftContainer">
+                    <div className='pod_line-images'>
+                        <img className='pod_Line' src={Line} alt="" />
+                        <img className='pod_Line1' src={line1} alt="" />
+                    </div>
+                    
+                    <div className="pod_content">
+                        <h2 className='pod-h2'>A podcast for makers and entrepreneurs</h2>
+                        <p>
                             Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
-                        </body>
+                        </p>
+                    </div>
+
+                    <div className='pod_line-image'>
+                        <img className='pod_Line2' src={line2} alt="" />
                     </div>
                 </div>
-                <div className="rightContainer">
-                    <div className="speaaking_images">
-                       <img className='speakingMan' src={spaeakingMan} alt="" />
-                       <img className='speakingWoman'  src={spaeakingWoman} alt="" />
-                       <img className='speakingLines'  src={speakingLines} alt="" />
-                       <img className='speakingSingleLine' src={speakingSingleLine} alt="" />
+                <div className="pod_rightContainer">
+                    <div className="pod_speaaking_images">
+                       <img className='pod_speakingMan' src={spaeakingMan} alt="" />
+                       <img className='pod_speakingWoman'  src={spaeakingWoman} alt="" />
+                       <img className='pod_speakingLines'  src={speakingLines} alt="" />
+                       <img className='pod_speakingSingleLine' src={speakingSingleLine} alt="" />
                     </div>
                 </div>
             </div>

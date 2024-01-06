@@ -1,32 +1,52 @@
 header{
-        height: 5rem;
-        width: 100vw;
-        display: grid;
-        place-items: center;
-        /* position: fixed; */
-        top: 0;
-        left: 0;
-        z-index: 99;
-        background-color: red;
-        color: black;
+    width: 100%;
 }
-.container{
-    height: 100%;
+.container {
     display: flex;
-    justify-content:space-between;
     align-items: center;
-    position: relative;
+    justify-content: space-between;
+    padding: 2rem 0;
  }
- .logo{
-    width: 7rem;
-    display: block;
-}
-nav{
+
+.nav-social-cont {
     display: flex;
-    gap: 3.5rem;
-    background-color: yellow;
-    
+    align-items: center;
+    gap: 50px;
 }
-.nav-soicals{
-    
+
+.nav-social-cont nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.nav-social-cont nav a {
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.nav-social-cont nav a:hover {
+    color: red;
+}
+
+.nav-social-cont .nav-soicals {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-social-cont .nav-soicals a {
+    color: #14142B;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.nav-social-cont .nav-soicals a:hover{
+    color: red;
 }

@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const Brands = () => {
-  const images = [images1, images2, images3, images4, images5];
+  const images = [images1, images2, images3, images4, images5,images1, images2, images3, images4, images5];
 
   return (
 
@@ -21,7 +21,7 @@ const Brands = () => {
       <div className='Image'>
         <Swiper
            spaceBetween={100}
-          loop
+          loop={true}
           slidesPerView={5}
           autoplay={{
             delay: 500
