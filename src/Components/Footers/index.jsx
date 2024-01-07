@@ -3,14 +3,14 @@ import Logo_footer from '../../Images/footer.svg'
 import { Link, NavLink } from 'react-router-dom'
 import './style.css'
 import myRoutes from '../MyRoutes'
-import images1 from '../../Images/Podcast Available On.png';
-import images2 from '../../Images/Apple Podcast.png';
-import images3 from '../../Images/Spotify.png';
-import images4 from '../../Images/Sound Cloud.png';
-import images5 from '../../Images/Google Podcast.png';
+import images1 from '../../Images/footer1.png';
+import images2 from '../../Images/footer2.png';
+import images3 from '../../Images/footer3.png';
+import images4 from '../../Images/footer4.png';
+// import images5 from '../../Images/Google Podcast.png';
 
 const index = () => {
-  const images = [images1, images2, images3, images4, images5];
+  const images = [images1, images2, images3, images4, ];
   return (
     <section className='footer'>
       <div className="footer_container">
@@ -51,9 +51,9 @@ const index = () => {
                 myRoutes
                   .filter((_, index) => index === 2 || index === 5)
                   .map(({ id, path, title }) => (
-                    <NavLink key={id} to={path}>
+                    <Link className='footer_link' key={id} to={path}>
                       {title}
-                    </NavLink>
+                    </Link>
                   ))
               }
             </div>
@@ -71,7 +71,7 @@ const index = () => {
 
                 <div key={index}>
                   <article>
-                    <img src={image} alt={` ${index}`} />
+                    <img src={image} alt={`Gallery Image ${index}`} />
                   </article>
                 </div>
 
