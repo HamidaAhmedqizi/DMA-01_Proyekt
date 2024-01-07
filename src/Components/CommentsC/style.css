@@ -11,7 +11,11 @@
     flex-direction: column;
     gap: 64px;
 }
-
+.comment_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
 .comment_top .comments-top_container_left {
     display: flex;
     flex-direction: column;

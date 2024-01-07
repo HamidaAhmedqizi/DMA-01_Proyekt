@@ -1,0 +1,76 @@
+.episode_item_list {
+    width: 416px;
+    height: 460px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    cursor: pointer;
+
+}
+
+.episodeitem_text_icon {
+    width: 416px;
+    height: 172px;
+    flex-shrink: 0;
+
+}
+
+.episodeitem_text_icon .episodeitem_listen {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.images_episodeitem {
+    position: relative;
+}
+
+.images_episodeitem .episode_icon {
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.episode_ico:hover {
+    opacity: 0.81;
+}
+
+.episodeitem_text_icon .episodeItem_title {
+    max-width: 41.499rem;
+    color: var(--black-color);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.episodeitem_text_icon .episodeItem_desc {
+    max-width: 37.4602rem;
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background-color: red;
+    /* 24px */
+}
+
+.images_episodeitem {
+    width: 100% !important;
+    height: 100% !important;
+}
+.episodeitem_text_icon .episodeitem_listen .listen_text{
+    color:  #503AE7;
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    cursor: pointer;
+    transition: var(--transition);
+}
