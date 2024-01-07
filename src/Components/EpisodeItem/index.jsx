@@ -15,7 +15,7 @@ const EpisodeItem = ({ image,  description, title}) => {
                 <h3 className='episodeItem_title'>{title}</h3>
                 <p className='episodeItem_desc'>{description}</p>
                 <div className='episodeitem_listen' >
-                <img className='episode_listen_icon' src={Episode_listen_icon} alt="" />
+                <img className='episode_listen' src={Episode_listen_icon} alt="" />
                     <p className='listen_text'> Listen now</p>
                 </div>
             </div>
