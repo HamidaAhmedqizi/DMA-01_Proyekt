@@ -20,10 +20,10 @@ const HomePage = () => {
       <Brands />
       <Podcasts1 />
       <Videos />
-      <Subscribe />
-      <Sponsors />
       <Episode/>
       <CommentsC />
+      <Subscribe />
+      <Sponsors />
       <Footers />
       <CopyRight />
 
