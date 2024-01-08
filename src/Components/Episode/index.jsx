@@ -25,7 +25,7 @@ const Episode = () => {
             </button>
           </div>
         </div>
-        <div className="episodess_container-bottom">
+        <div className="episodes_container-bottom">
 
           <div className="episodes_container_items">
             <div className="episodes_container-bottom">

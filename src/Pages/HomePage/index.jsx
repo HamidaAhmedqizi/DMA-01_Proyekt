@@ -9,6 +9,7 @@ import Sponsors from '../../Components/Sponsors'
 import CopyRight from '../../Components/Copyright'
 import CommentsC from '../../Components/CommentsC'
 import Episode from '../../Components/Episode'
+import Read from '../../Components/Read'
 
 
 
@@ -24,6 +25,7 @@ const HomePage = () => {
       <CommentsC />
       <Subscribe />
       <Sponsors />
+      <Read/>
       <Footers />
       <CopyRight />
 

@@ -1,0 +1,46 @@
+.read_item_list {
+    width: 416px;
+    height: 516px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.read_item_list .readitem_text_title {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.read_item_list .readitem_text_title .readItem_title{
+    color: var(--Black, #14142B);
+width:411px;
+/* Heading 3 */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 30px */
+}
+.read_item_list .readitem_text_title .readItem_desc {
+    color: var(--Black, #14142B);
+width: 371px;
+/* Body */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.read_item_list .readitem_text_title .read_blue-btn{
+    color: var(--Blue, #503AE7);
+width: 78px;
+/* See more */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
