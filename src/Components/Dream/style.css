@@ -1,0 +1,71 @@
+.dream {
+    width: 100%;
+    padding: 0 80px;
+    padding-bottom: 128px;
+}
+
+.dream_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.dream_container_left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+}
+
+.dream_container_left .dream_container_title {
+    width: 280px;
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 38.4px */
+}
+.dream_container_left .dream_container_desc {
+    width: 420px;
+    color: var(--Black, #14142B);
+
+/* Body */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.dream_container_left .dream_container_text {
+    width: 420px;
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+}
+.dream_purpleLine {
+    position: absolute;
+    top: 19rem;
+    right: 0;
+}
+.man_speaking {
+    width: 100%;
+    height: 100%;
+}
+.dream_container_right .dream_wawe {
+    max-width: 38.4rem;
+    height: 12.4rem;
+    background-color: var(--blue-btn-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -9rem;
+    margin-left: -11rem;
+    position: relative;
+    z-index: 3;
+}
