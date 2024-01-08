@@ -1,8 +1,14 @@
 import React from 'react'
+import Hero from '../../Components/Hero'
+import BigCards from '../../Components/BigCards'
 
 const Host = () => {
   return (
-    <div>Host</div>
+    <div>
+      <BigCards />
+      <Hero />
+
+    </div>
   )
 }
 
