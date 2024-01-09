@@ -1,0 +1,105 @@
+.studios {
+    padding-bottom: 128px;
+    padding-top: 64px;
+}
+
+.studios_container {
+
+    background: url('../../Images/studios.png');
+    width: 100%;
+    min-height: 564px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 0;
+    padding-left: 80px;
+
+
+}
+
+.studios_bg {
+    opacity: 0.9;
+    background: var(--Blue, #503AE7);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 768px;
+    height: 468px;
+    flex-shrink: 0;
+}
+.studios_blue {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.studios_text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.studios_text_content .studios_desc {
+    color: var(--Off-white, #F4F2FF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.studios_text_content .studios_title {
+    width: 540px;
+    color: var(--Off-white, #F4F2FF);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 38.4px */
+}
+
+.studios_desc_ {
+    width: 500px;
+    color: var(--Off-white, #F4F2FF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.studios_blue .studios_icon_btn {
+    display: flex;
+    align-items: center;
+   
+}
+
+.studios_blue .studios_btn {
+    display: flex;
+    width: 126px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.9;
+    background: var(--Blue, #503AE7);
+    border: none;
+    outline: none;
+    color: var(--Off-white, #F4F2FF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    cursor: pointer;
+    transition: var(--transition);
+
+}
+.studios_blue .studios_btn:hover {
+    opacity: 0.78;
+}
