@@ -1,0 +1,113 @@
+.welcome {
+    padding: 12.8rem 80px;
+    width: 100%;
+
+}
+
+.welcome_container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+
+}
+
+.welcome_container_left {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    position: relative;
+  
+}
+
+.welcome_images {
+    position: relative;
+}
+
+.line_purple {
+    position: absolute;
+    left: 3rem;
+    top: 5rem;
+}
+
+.line_green {
+    position: absolute;
+    left: -7%;
+    bottom: 42%;
+}
+
+.welcome_container_right {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+   
+    position: relative;
+}
+
+.welcome_text_content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.welcome_text_content .welcome_blue-text {
+    color: var(--Blue, #503AE7);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.welcone_blue_title {
+    color: var(--Black, #14142B);
+    width: 315px;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+ 
+}
+
+.welcome_text_content .welcome_blue-desc {
+    max-width: 340px;
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    /* 24px */
+}
+
+.welcome_btn button {
+    background: var(--Blue, #503AE7);
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+
+.bigline{
+position: absolute;
+bottom: -1rem;
+right: 2rem;
+
+
+}
