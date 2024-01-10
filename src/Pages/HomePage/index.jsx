@@ -24,8 +24,9 @@ const HomePage = () => {
       <Episode/>
       <CommentsC />
       <Subscribe />
-      <Sponsors />
       <Read/>
+      <Sponsors />
+     
       <Footers />
       <CopyRight />
 

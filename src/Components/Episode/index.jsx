@@ -28,7 +28,7 @@ const Episode = () => {
         <div className="episodes_container-bottom">
 
           <div className="episodes_container_items">
-            <div className="episodes_container-bottom">
+            
               
 
                 {
@@ -50,7 +50,7 @@ const Episode = () => {
 
         </div>
 
-      </div>
+  
     </section>
   )
 }

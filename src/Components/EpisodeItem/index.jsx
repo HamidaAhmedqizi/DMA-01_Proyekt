@@ -9,7 +9,7 @@ const EpisodeItem = ({ image,  description, title}) => {
         <div className='episode_item_list'>
             <div className='images_episodeitem'>
                <img src={Episode_icon}className='episode_icon'alt="" />
-                <Link> <img src={image} alt="" /></Link>
+                <Link to='/singlepodcasts'> <img src={image} alt="" /></Link>
             </div>
             <div className="episodeitem_text_icon">
                 <h3 className='episodeItem_title'>{title}</h3>

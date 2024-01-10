@@ -1,60 +1,57 @@
-.episodes {
-   
-    padding-bottom: 128px;
-    padding-left: 80px;
-    padding-right: 80px;
+.finesweet {
+    padding: 0 20.8rem;
+    padding-top: 6.4rem;
+    padding-bottom: 12.8rem;
 }
 
-.episodes_container {
+.finesweet_container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
    
-   
-}
-.episodes_top{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    
+    margin-top: 6.4rem;
 }
 
-.episodes_top .episodes-top_container_left {
+.finesweet_cpntainer_left {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-   
+    gap: 4rem;
 }
 
-.episodes_top .episodes-top_container_left .episodes-h2 {
+.finesweet_title {
+    width: 387px;
     color: var(--Black, #14142B);
+
+    /* Heading 1 */
     font-family: Inter;
-    font-size: 32px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%;
+    line-height: 110%;
+    /* 52.8px */
 }
 
-.episodes_top .episodes-top_container_left p {
-    width: 371px;
-    height: 54px;
-    flex-shrink: 0;
+.finesweet_desc {
+    width: 480px;
     color: var(--Black, #14142B);
+
+    /* Body */
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     /* 24px */
-
 }
 
-.episodes_container-top_right .episodes_btn {
+.finesweet_btn {
+    width: 185px;
     display: inline-flex;
     padding: 12px 32px;
     align-items: flex-start;
     gap: 10px;
-    background-color: #503AE7;
+    background: var(--Blue, #503AE7);
     color: var(--White, #FFF);
     font-family: Inter;
     font-size: 16px;
@@ -65,11 +62,9 @@
     border: none;
     outline: none;
     cursor: pointer;
-    transition: var(--transition);
+    transition: all 0.25s ease-in;
 }
-.episodes_container-bottom .episodes_container_items {
-    display: flex;
-    justify-content: space-between;
-    gap: 1.5rem;
-   
+.finesweet_img {
+    width: 100%;
+    height: 100%;
 }

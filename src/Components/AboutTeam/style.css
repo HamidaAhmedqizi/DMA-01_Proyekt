@@ -1,0 +1,45 @@
+.AboutTeam {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 12.8rem;
+    width: 100%;
+}
+
+.boutteam_container {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 12.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutteamcenter {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.aboutteamcenter .aboutteam_title {
+    color: var(--Black, #14142B);
+    width: 300px;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 38.4px */
+}
+.aboutteam_desc {
+    display: flex;
+    justify-content:space-between;
+}
+.aboutteamcenter .about_team_desc {
+    color: var(--Black, #14142B);
+width: 490px;
+    /* Body */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}

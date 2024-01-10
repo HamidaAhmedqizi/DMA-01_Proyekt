@@ -1,7 +1,4 @@
 .episode_item_list {
-    width: 416px;
-    height: 460px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -10,9 +7,9 @@
 }
 
 .episodeitem_text_icon {
-    width: 416px;
-    height: 172px;
-    flex-shrink: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
 
 }
 
@@ -20,6 +17,8 @@
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    background-color: red;
+    width: 126px;
 }
 
 .images_episodeitem {

@@ -1,0 +1,25 @@
+.meetour {
+padding-left: 80px;
+padding-right: 80px;
+
+}
+.meetour_countainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.meetour_countainer .meetour_top .meetour_title {
+    color: var(--Black, #14142B);
+
+/* Heading 2 */
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
+}
+.meet__center .meet_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}

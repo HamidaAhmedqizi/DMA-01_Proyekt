@@ -19,12 +19,17 @@ const Read = () => {
         </div>
         <div className="read_container_right_items">
           <div className="read_container_items">
-            <div className="read_container_right">
-            {readData.map(({ id, image, text, title }) => (
-              <ReadItem key={id} image={image} text={text} title={title} />
-            ))}
-            </div>
             
+              {readData.map(({ id, image, text, title }) => {
+              return(
+              <div>
+                <ReadItem key={id} image={image} text={text} title={title} />
+              </div>
+              )
+              
+              })}
+           
+
           </div>
         </div>
       </div>
