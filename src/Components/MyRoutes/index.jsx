@@ -6,6 +6,7 @@ import Host from '../../Pages/HostPage'
 import Blog from '../../Pages/BlogPage'
 import Contact from '../../Pages/ContactPage'
 import Podcasts from '../../Pages/PodcastPage'
+import SinglePodcasts from '../../Pages/SinglePodcasts'
 
 
  const myRoutes = [
@@ -16,6 +17,7 @@ import Podcasts from '../../Pages/PodcastPage'
     { id:5, path:'/blog', element:<Blog/>,title:'Blog'},
     { id:6, path:'/contact', element:<Contact/>,title:'Contact'},
     { id:7, path:'*', element:<ErrorPage/>,},
+    { id:8, path:'/singlepodcast', element:<SinglePodcasts/>,},
    
     
 ]

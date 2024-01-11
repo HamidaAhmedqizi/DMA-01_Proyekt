@@ -1,0 +1,40 @@
+.aboutsponsors {
+    padding: 128px 80px;
+    padding-bottom: 128px;
+}
+
+.aboutsponsors_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.aboutsponsors_container .sponsors_title {
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    /* 129.167% */
+}
+
+.sponsors_logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1.6rem;
+}
+
+.sponsors_logos .sponsor_logo {
+    width: 416px;
+    height: 224px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
