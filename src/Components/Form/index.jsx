@@ -4,6 +4,7 @@ import images2 from '../../Images/Sound Cloud.png'
 import images3 from '../../Images/Google Podcast.png'
 import images4 from '../../Images/Spotify.png'
 import images5 from '../../Images/Lines.png'
+import './style.css'
 
 const Form = () => {
     return (
@@ -11,22 +12,25 @@ const Form = () => {
             <div className="form_container">
                 <div className="form_container_left">
                     <div className="form_title_cont">
-                        <h3>width: 563px;</h3>
-                        <h2>Interested in collaborating? Please fill the form below.</h2>
+                        <h3 className='form_title'>Contact Us</h3>
+                        <h2 className='form_cont_h2'>Interested in collaborating? Please fill the form below.</h2>
                     </div>
                     <div className="form_cont">
                         <form>
+                            <div className='form_inputs'>
                             <input type="text" placeholder='Your full name' />
                             <input type="email" placeholder='Your Email Id' />
                             <input type="text" placeholder='Query Related' />
                             <textarea placeholder='Message'></textarea>
+                            </div>
+                            
                         </form>
                     </div>
                     <button className='form_btn'>  Contact now</button>
                 </div>
                 <div className="form_container_right">
                     <div className="form_right_title">
-                        <h3>Subscribe</h3>
+                        <h3 >Subscribe</h3>
                     </div>
                     <div className="form_images">
                         <div className="form_images_item">
@@ -39,7 +43,7 @@ const Form = () => {
                         </div>
                     </div>
                     <div className="form_socials">
-                        <h3>Socials</h3>
+                        <h3 className='form_socials_title'>Socials</h3>
                         <div className="form_socials_icons">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <g clip-path="url(#clip0_759_1835)">
