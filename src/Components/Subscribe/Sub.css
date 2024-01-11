@@ -26,11 +26,11 @@
   gap: 3rem;
 }
 
-.Subscribe_container .input-button {
+.Subscribe_container .subinput-button {
   display: flex;
 }
 
-.Subscribe_container .input-button .email {
+.Subscribe_container .subinput-button .subemail {
 
 
   width: 367px;
@@ -53,7 +53,7 @@
 /* .inbox_container .inbox_center .inbox_input_button .input_email::placeholder {
   color: var(--input-text-color);
 } */
-.Subscribe_container .input-button .subsbutton {
+.Subscribe_container .subinput-button .subsbutton {
   background: var(--Green, #1AD993);
   width: 144px;
   height: 48px;
@@ -68,6 +68,16 @@
   outline: none;
   padding: 12px 32px;
 
+}
+.subtitle {
+  color: var(--White, #FFF);
+
+/* Heading 2 */
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 38.4px */
 }
 .Subscribe_container .SubscribeLeft svg{
   margin-bottom: 5.7rem;

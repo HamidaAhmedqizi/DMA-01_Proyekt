@@ -16,9 +16,9 @@ const Subscribe = () => {
 
                 </div>
                 <div className="SubscribeCenter">
-                    <h2>Receive new episodes in your inbox.</h2>
-                    <div className="input-button">
-                        <input  className='email' type="text" placeholder='Enter Your Email' />
+                    <h2 className='subtitle'>Receive new episodes in your inbox.</h2>
+                    <div className="subinput-button">
+                        <input  className='subemail' type="text" placeholder='Enter Your Email' />
                         <button className='subsbutton'>Subscribe</button>
                     </div>
                 </div>

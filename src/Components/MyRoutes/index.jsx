@@ -7,6 +7,7 @@ import Blog from '../../Pages/BlogPage'
 import Contact from '../../Pages/ContactPage'
 import Podcasts from '../../Pages/PodcastPage'
 import SinglePodcasts from '../../Pages/SinglePodcasts'
+import SingleBlog from '../../Pages/SingleBlog'
 
 
  const myRoutes = [
@@ -18,6 +19,7 @@ import SinglePodcasts from '../../Pages/SinglePodcasts'
     { id:6, path:'/contact', element:<Contact/>,title:'Contact'},
     { id:7, path:'*', element:<ErrorPage/>,},
     { id:8, path:'/singlepodcast', element:<SinglePodcasts/>,},
+    { id:9, path:'/singleblog', element:<SingleBlog/>,},
    
     
 ]

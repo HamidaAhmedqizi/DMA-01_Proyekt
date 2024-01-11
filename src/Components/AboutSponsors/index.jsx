@@ -9,7 +9,7 @@ const AboutSponsors = () => {
                 <div className="sponsors_title">
                     <h2>Our sponsors</h2>
                 </div>
-                <div className="sponsors_logos">
+                <div className="sponsors_logos_a">
                     <div className="sponsor_logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="162" height="30" viewBox="0 0 162 30" fill="none">
                             <g clip-path="url(#clip0_752_1685)">
