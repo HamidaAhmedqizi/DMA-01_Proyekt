@@ -4,6 +4,8 @@ import HeroStory from '../../Components/HeroStory'
 import Sponsors from '../../Components/Sponsors'
 import CopyRight from '../../Components/Copyright'
 import Footers from '../../Components/Footers'
+import RecentEpisodes from '../../Components/RecentEpisodes'
+import FilterPodcast from '../../Components/FilterAllPodcasts'
 
 
 
@@ -11,8 +13,11 @@ const Podcasts = () => {
   return (
     <div>
      
-      <HeroStory/>
+     
      <Studios/>
+     <RecentEpisodes/>
+     <FilterPodcast/>
+     <HeroStory/>
      <Sponsors />
      <Footers />
       <CopyRight />

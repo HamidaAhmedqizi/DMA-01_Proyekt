@@ -1,0 +1,107 @@
+.episodes {
+
+    padding-bottom: 128px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.episodes_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+
+}
+
+.episodes_top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+
+}
+
+.episodes_top .category {
+    display: flex;
+    gap: 1rem;
+}
+
+.episodes_top .category .category_filter {
+    padding: 16px 40px;
+    color: #AFB0B9;
+    border: 1px solid #AFB0B9;;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    background: transparent;
+    border-radius: 28.5px;
+    /* 150% */
+}
+.episodes_top .category .category_filter:hover {
+ background: var(--Blue, #503AE7);
+ color: #F4F2FF;
+}
+
+.episodes_top .episodes-top_container_left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.episodes_top .episodes-top_container_left .episodes-h2 {
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.episodes_top .episodes-top_container_left p {
+    width: 371px;
+    height: 54px;
+    flex-shrink: 0;
+    color: var(--Black, #14142B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+}
+
+.episodes_container-top_right .episodes_btn {
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #503AE7;
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.episodes_container-bottom .episodes_container_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+}

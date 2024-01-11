@@ -8,7 +8,7 @@ const CardsData=[
     image:Episode1,
     title: 'Ep 1: How to build a world-class business brand',
     description:'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.',
-    category:'Busines'
+    category:'Business'
    } ,
    {
     id:2,
@@ -29,7 +29,7 @@ const CardsData=[
     image:Episode1,
     title: 'Ep 1: How to build a world-class business brand',
     description:'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.',
-    category:'Busines'
+    category:'Business'
    } ,
    {
     id:5,
@@ -50,7 +50,7 @@ const CardsData=[
     image:Episode1,
     title: 'Ep 1: How to build a world-class business brand',
     description:'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.',
-    category:'Busines'
+    category:'Business'
    } ,
    {
     id:8,
