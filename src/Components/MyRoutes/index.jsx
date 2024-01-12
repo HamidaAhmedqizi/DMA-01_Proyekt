@@ -20,7 +20,7 @@ import SingleBlog from '../../Pages/SingleBlog'
     { id:7, path:'*', element:<ErrorPage/>,},
     { id:8, path:'/singlepodcast', element:<SinglePodcasts/>,},
     { id:9, path:'/singleblog', element:<SingleBlog/>,},
-   
+    // { id: 10, path: '/singleblog/:blogId', element: <InCard /> },
     
 ]
 
