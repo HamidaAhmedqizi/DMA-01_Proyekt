@@ -24,7 +24,7 @@ const RecentEpisodes = () => {
               
 
                 {
-                 CardsData.map(({id,image,  description, title})=>{
+                 CardsData .slice(0,3).map(({id,image,  description, title})=>{
                     return (
                       <div key={id}>
                        <EpisodeItem id={id} image={image} title={title} description={description}/>

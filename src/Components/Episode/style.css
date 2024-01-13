@@ -1,8 +1,8 @@
 .episodes {
-   
+   padding-right: 100rem;
     padding-bottom: 128px;
-    padding-left: 80px;
-    padding-right: 80px;
+background-color: yellow;
+
 }
 
 .episodes_container {
@@ -70,6 +70,9 @@
 .episodes_container-bottom .episodes_container_items {
     display: flex;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1rem;
+   flex-wrap: wrap;
+
+ 
    
 }

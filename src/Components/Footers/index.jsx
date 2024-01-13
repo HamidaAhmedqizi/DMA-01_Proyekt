@@ -28,7 +28,7 @@ const index = () => {
         <div className="footer_container_item">
           <div className="footer_title_pages">
             <div className="footer_title">
-              <h4>Pages</h4>
+              <h4 className='footer_h4'>Pages</h4>
             </div>
             <div className="footer_pages">
               {
@@ -44,7 +44,7 @@ const index = () => {
         <div className="footer_container_item">
           <div className='footer_title_pages' >
             <div className="footer_title">
-              <h4>Reach Us</h4>
+              <h4 className='footer_h4'>Reach Us</h4>
             </div>
             <div className="footer_pages">
               {
@@ -64,7 +64,7 @@ const index = () => {
         <div className="footer_container_item">
           <div className="footer_title_pages">
             <div className="footer_title">
-              <h4>Subscribe</h4>
+              <h4 className='footer_h4'>Subscribe</h4>
             </div>
             <div className="footer_pages">
               {images.map((image, index) => (

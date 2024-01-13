@@ -9,9 +9,9 @@ const Header = () => {
         <h1>Become The Hero Of Your Own Story</h1>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
           invidunt ut labore et dolore magna aliquyam erat.</p>
-        <div className='Subscribe'>
-          <input type="email" placeholder='Enter Your Email Id' name="" id="" />
-          <button>Subscribe</button>
+        <div className='Subscribe_header'>
+          <input className='header_email' type="email" placeholder='Enter Your Email Id' name="" id="" />
+          <button className='header_button'>Subscribe</button>
         </div>
       </div>
       <div className="rigtSide">

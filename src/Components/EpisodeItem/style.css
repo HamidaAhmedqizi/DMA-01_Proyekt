@@ -1,8 +1,10 @@
 .episode_item_list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 20px;
     cursor: pointer;
+    width: 350px;
+
 
 }
 

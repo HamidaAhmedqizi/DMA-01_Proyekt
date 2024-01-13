@@ -5,7 +5,7 @@
 }
 
 .footer_container_item{
-    
+    padding-top: 200px;
 }
 .footer_pages{
     display: flex;
@@ -21,8 +21,9 @@
     padding: 0 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     gap: 10rem;
+
 }
 .footer_container_item {
     display: flex;
@@ -34,13 +35,14 @@
     flex-direction: column;
     gap: 1.6rem;
 }
-.footer_title_pages .footer_title h4 {
-    color: var(--bg-header);
+.footer_title_pages .footer_title .footer_h4 {
+    color: var(--White, #FFF);
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 150%; /* 30px */
+    padding-bottom: 1rem;
 
 }
 .footer_title_pages .footer_pages  a {
