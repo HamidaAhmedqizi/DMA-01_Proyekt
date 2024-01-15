@@ -12,25 +12,24 @@ const Form = () => {
             <div className="form_container">
                 <div className="form_container_left">
                     <div className="form_title_cont">
-                        <h3 className='form_title'>Contact Us</h3>
-                        <h2 className='form_cont_h2'>Interested in collaborating? Please fill the form below.</h2>
+                        <h3 className='form_title'>Bizimlə Əlaqə</h3>
+                        <h2 className='form_cont_h2'>Əməkdaşlıq etmək marağınız var? Zəhmət olmasa aşağıdakı formu doldurun.</h2>
                     </div>
                     <div className="form_cont">
                         <form>
                             <div className='form_inputs'>
-                            <input type="text" placeholder='Your full name' />
-                            <input type="email" placeholder='Your Email Id' />
-                            <input type="text" placeholder='Query Related' />
-                            <textarea placeholder='Message'></textarea>
+                                <input type="text" placeholder='Adınız Soyadınız' />
+                                <input type="email" placeholder='E-poçt Ünvanınız' />
+                                <input type="text" placeholder='Sorğu ilə bağlı' />
+                                <textarea placeholder='Mesajınız'></textarea>
                             </div>
-                            
                         </form>
                     </div>
-                    <button className='form_btn'>  Contact now</button>
+                    <button className='form_btn'>İndi Əlaqə saxlayın</button>
                 </div>
                 <div className="form_container_right">
                     <div className="form_right_title">
-                        <h3 >Subscribe</h3>
+                        <h3>Abunə olun</h3>
                     </div>
                     <div className="form_images">
                         <div className="form_images_item">
@@ -43,9 +42,9 @@ const Form = () => {
                         </div>
                     </div>
                     <div className="form_socials">
-                        <h3 className='form_socials_title'>Socials</h3>
+                        <h3 className='form_socials_title'>Sosial Şəbəkələr</h3>
                         <div className="form_socials_icons">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <g clip-path="url(#clip0_759_1835)">
                                     <path d="M20 10C20 4.47715 15.5229 0 10 0C4.47715 0 0 4.47715 0 10C0 14.9912 3.65684 19.1283 8.4375 19.8785V12.8906H5.89844V10H8.4375V7.79688C8.4375 5.29063 9.93047 3.90625 12.2146 3.90625C13.3084 3.90625 14.4531 4.10156 14.4531 4.10156V6.5625H13.1922C11.95 6.5625 11.5625 7.3334 11.5625 8.125V10H14.3359L13.8926 12.8906H11.5625V19.8785C16.3432 19.1283 20 14.9912 20 10Z" fill="#503AE7" />
                                 </g>
@@ -78,7 +77,7 @@ const Form = () => {
                         </div>
                     </div>
                     <div className='contact_image'>
-                        <img src={images5} alt="" />
+                        <img  className='contact_image_end' src={images5} alt="" />
                     </div>
                 </div>
             </div>

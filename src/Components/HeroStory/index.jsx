@@ -10,13 +10,13 @@ const HeroStory = () => {
                 
                     <div className="herostory_container_left">
                         <div className='hero_container_text'>
-                        <h1 className='hero_container_title'>Become The Hero Of Your Own Story</h1>
+                        <h1 className='hero_container_title'>Öz hekayənin qəhrəmanı olun</h1>
                         <p className='hero_container_desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus cras lacus tellus morbi viverra suspendisse ornare. 
                         <span>Sit volutpat, volutpat
                             ut netus malesuada enim penatibus non aliquet.</span></p>
                         <Link to='/contact'>
                             <button className="story_btn">
-                                Contack Us
+                                Bizimlə Əlaqə Saxlayın
                             </button>
                         </Link>
                         </div>
@@ -24,7 +24,7 @@ const HeroStory = () => {
                     </div>
                     <div className="herostory_container_right">
                         <div className="story_image" >
-                            <img src={hero_pulse} alt="" />
+                            <img className='image_pulse' src={hero_pulse} alt="" />
                         </div>
                     </div>
                

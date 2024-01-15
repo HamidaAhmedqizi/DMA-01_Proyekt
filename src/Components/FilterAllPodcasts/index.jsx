@@ -26,9 +26,9 @@ const FilterPodcast = () => {
             <h2 className='episodes-h2'>All Podcast</h2>
           </div>
           <div className="category">
-            <button className='category_filter' onClick={AllPodcast}>All Podcast</button>
-            <button className='category_filter' onClick={() => filtercate('Business')}>Business</button>
-            <button className='category_filter' onClick={() => filtercate('Customers')}>Customers</button>
+            <button className='category_filter' onClick={AllPodcast}>Hamısı</button>
+            <button className='category_filter' onClick={() => filtercate('Biznes')}>Biznes</button>
+            <button className='category_filter' onClick={() => filtercate('Müştərilər')}>Müştərilər</button>
             <button className='category_filter' onClick={() => filtercate('Startup')}>Startup</button>
           </div>
         </div>

@@ -15,7 +15,8 @@ const Vlogger = () => {
           </div>
         </div> */}
         <div className="vlogger_container_left">
-          <h2 className='vlogger_title'>My origins on YouTube in 2008</h2>
+          <h2 className='vlogger_title'>2008- ci ildə
+YouTube platformasında mən</h2>
           <p className='vlogger_text'>
             Lorem ipsum dolor sit amet,
             consectetur adipiscing elit. Lorem eget condimentum enim
@@ -33,7 +34,7 @@ const Vlogger = () => {
           </p>
         </div>
         <div className="vlogger_container_right">
-          <h2 className='vlogger_title'>From tech journalist, to Vlogger and YouTuber</h2>
+          <h2 className='vlogger_title'>Texnoloji jurnalistindən, Vlogger və YouTuber-ə</h2>
           <p className='vlogger_text'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Mus cras lacus tellus morbi viverra suspendisse ornare.

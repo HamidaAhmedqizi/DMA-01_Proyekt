@@ -1,13 +1,13 @@
-import React from 'react'
-import './style.css'
-import teamimage from '../../Images/aboutteam.png'
+import React from 'react';
+import './style.css';
+import teamimage from '../../Images/aboutteam.png';
 
 const AboutTeam = () => {
     return (
         <section className='AboutTeam'>
             <div className='aboutteam_container'>
                 <div className="aboutteamcenter">
-                    <h2 className='aboutteam_title'>A few words about our team</h2>
+                    <h2 className='aboutteam_title'>Bizim Komandamız Haqqında</h2>
                     <img src={teamimage} alt="" />
                     <div className='aboutteam_desc'>
                         <p className='about_team_desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget condimentum enim libero ultricies amet odio fringilla. Ut nibh morbi augue porta aliquet commodo.
@@ -18,7 +18,7 @@ const AboutTeam = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default AboutTeam
+export default AboutTeam;

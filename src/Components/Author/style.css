@@ -43,19 +43,25 @@
     line-height: 150%;
     /* 24px */
 }
+
 .author_left .author_socials {
     display: flex;
-  gap: 2rem;
-  
+    gap: 2rem;
+
 }
+
 .author_right .author_right_text {
     width: 320px;
     color: var(--Black, #14142B);
-
-/* Body */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 24px */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+.author_image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }

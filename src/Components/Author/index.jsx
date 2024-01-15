@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import images from '../../Images/author.png'
+import images from '../../Images/canva2 photo.jpeg'
 
 const Author = () => {
     return (
@@ -8,10 +8,10 @@ const Author = () => {
             <div className="author_container">
             <div className="author_blue"></div>
                 <div className="author_left">
-                    <img src={images} alt="" />
+                    <img className="author_image"src={images} alt="" />
                     <div className="auhor_name_job">
-                        <h3 className='author_name'>Eve Madien</h3>
-                        <small className='author_job'>Producer & Art Director</small>
+                        <h3 className='author_name'>Hamida Ahmedqizi</h3>
+                        <small className='author_job'>Front-end Developer</small>
                     </div>
                     <div className="author_socials">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -45,9 +45,7 @@ const Author = () => {
                 </div>
                 <div className="author_right">
                     <div className="author_right_text">
-                        <p>Recusandae ea placeat sit rerum quidem enim sed.
-                            Voluptas aut adipisci autem in sint. Doloremque omnis dolor fuga consectetur commodi repellendus molestiae
-                            voluptatibus dolorum. Non quae est velit.</p>
+                        <p>Front-end Developer olaraq təcrübə qazanmağa nail oldum və bu sahədəki bacarıqlarımı təkmilləşdirmək üçün 1 il ərzində fəaliyyət göstərdim. 2 il müddətində isə mühəndislik sahəsində çalışaraq fərqli perspektiv və bacarıqlar əldə etdim.2 ildən çox bir müddət GIS mühəndisi kimi çalışmışam. Hədəfim GIS Developer olmaqdır və bu sahədəki bacarıqlarım və təcrübələrimlə yaratıcılığımı daha da artırmağa nail olmağı planlaşdırıram.</p>
                     </div>
                 </div>
             </div>

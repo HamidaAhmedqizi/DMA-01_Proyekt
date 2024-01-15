@@ -13,7 +13,7 @@ const Sponsors = () => {
     <section className='sponsors'>
       <div className="sponsors_container">
         <div className="sponsors_title">
-          <h2>Our sponsors</h2>
+          <h2>Tərəfdaşlarımız</h2>
         </div>
       <div className="sponsors_logos">
       {

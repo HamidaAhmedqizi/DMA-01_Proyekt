@@ -8,7 +8,7 @@ const MeetTeam = () => {
         <section className='meetour'>
             <div className="meetour_countainer">
                 <div className="meetour_top">
-                    <h2 className='meetour_title'>Meet Our Team </h2>
+                    <h2 className='meetour_title'>Bizim Komanda </h2>
                 </div>
                 <div className="meet__center">
                     <div className="meet_items">

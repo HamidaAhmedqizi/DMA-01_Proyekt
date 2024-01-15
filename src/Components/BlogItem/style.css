@@ -28,7 +28,7 @@ images_Blogitem img {
 
 .Blogitem_btn_text .Blogitem_title {
     color: var(--Black, #14142B);
-    padding-right: 50px;
+    padding-right: 20px;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;

@@ -20,7 +20,7 @@
 }
 
 .finesweet_title {
-    width: 387px;
+    width: 500px;
     color: var(--Black, #14142B);
 
     /* Heading 1 */
@@ -46,7 +46,7 @@
 }
 
 .finesweet_btn {
-    width: 185px;
+    width: 150px;
     display: inline-flex;
     padding: 12px 32px;
     align-items: flex-start;
@@ -67,4 +67,7 @@
 .finesweet_img {
     width: 100%;
     height: 100%;
+}
+.finesweet_btn:hover {
+    opacity: 0.79;
 }

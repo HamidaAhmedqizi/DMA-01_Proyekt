@@ -1,7 +1,7 @@
 .read {
     padding-bottom: 128px;
     padding-left: 80px;
-    padding-right: 80px; 
+    padding-right: 80px;
     padding-top: 128px;
 }
 
@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
- 
+
 
 }
 
@@ -33,7 +33,7 @@
 }
 
 .read_left_head .card_title {
-    max-width: 220px;
+    width: 250px;
     color: var(--Black, #14142B);
     font-family: Inter;
     font-size: 32px;
@@ -61,7 +61,7 @@
     cursor: pointer;
     transition: vall 0.25s ease-in;
     background: none;
-  
+
 }
 
 
@@ -76,5 +76,5 @@
     justify-content: space-between;
     gap: 2rem;
     width: 100%;
-    
+
 }

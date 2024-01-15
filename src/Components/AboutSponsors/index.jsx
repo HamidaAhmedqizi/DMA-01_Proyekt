@@ -1,13 +1,14 @@
 import React from 'react'
 import line2 from '../../Images/Line2.png'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 const AboutSponsors = () => {
     return (
         <section className='aboutsponsors'>
             <div className='aboutsponsors_container'>
                 <div className="sponsors_title">
-                    <h2>Our sponsors</h2>
+                    <h2>Tərəfdaşlarımz</h2>
                 </div>
                 <div className="sponsors_logos_a">
                     <div className="sponsor_logo">
@@ -90,16 +91,18 @@ const AboutSponsors = () => {
                             </defs>
                         </svg>
                     </div>
-                    <div className="sponsor_logo">
-                        <h3 className='sponsor_logo'>Become a Sponsor</h3>
-                        <div className="contact_about">
-                            <p>Contact Now</p>
-                            <img src={line2} alt="" />
+                    <div className="sponsor_logo1">
+                            <h3 className='sponsor_logo_title'>Tərəfdaş ol</h3>
+                            <div className="contact_about">
+                               <Link to='/contact'><p className='sponsor_text'>Indi əlaqəyə keç</p></Link> 
+                                <img src={line2} alt="" />
+                            </div>
                         </div>
+
                     </div>
 
                 </div>
-            </div>
+            
         </section>
     )
 }

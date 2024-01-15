@@ -1,6 +1,7 @@
 .makers {
     padding: 0 208px;
     padding-bottom: 64px;
+    padding-top: 64px;
 }
 
 .makers_container {
@@ -51,6 +52,7 @@
     font-weight: 400;
     line-height: 150%;
     /* 24px */
+    padding-top: 0.8rem;
 }
 
 .maker_container_text ul {

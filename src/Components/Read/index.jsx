@@ -10,8 +10,8 @@ const Read = () => {
       <div className="read_container">
         <div className="read_left_card">
           <div className="read_left_head">
-            <h3 className='card_title'>Read our articles & news</h3>
-            <button className='read_button'>See More</button>
+            <h3 className='card_title'>Məqalələrimizi və xəbərlərimizi oxuyun</h3>
+            <button className='read_button'>Daha ətraflı</button>
           </div>
           <div className="read_card_left_img">
             <img src={read_photo} alt="" />

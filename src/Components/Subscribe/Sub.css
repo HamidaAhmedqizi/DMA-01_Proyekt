@@ -1,10 +1,11 @@
 /* style.css */
 
 .Subscribe {
-  background: red;
+padding-top: 64px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 10rem;
+  
+ 
 
 }
 
@@ -28,6 +29,7 @@
 
 .Subscribe_container .subinput-button {
   display: flex;
+
 }
 
 .Subscribe_container .subinput-button .subemail {
@@ -55,7 +57,7 @@
 } */
 .Subscribe_container .subinput-button .subsbutton {
   background: var(--Green, #1AD993);
-  width: 144px;
+  width: 200px;
   height: 48px;
   color: var(--Black, #14142B);
   font-family: Inter;
@@ -66,7 +68,7 @@
   /* 150% */
   border: none;
   outline: none;
-  padding: 12px 32px;
+  padding: 12px 50px;
 
 }
 .subtitle {
@@ -85,4 +87,7 @@ line-height: 120%; /* 38.4px */
 
 .Subscribe_container .SubscribeRight svg {
   margin-top: 12.9rem;
+}
+.Subscribe_container .subinput-button .subsbutton:hover {
+  opacity: 0.91;
 }

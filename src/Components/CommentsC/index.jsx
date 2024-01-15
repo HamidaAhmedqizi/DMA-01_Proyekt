@@ -17,7 +17,7 @@ const CommentsC = () => {
       <div className='comment_container'>
         <div className="comment_top">
           <div className="comments-top_container_left">
-            <h2 className='com-h2'>What our listeners say</h2>
+            <h2 className='com-h2'>Dinləyicilərimizin rəyləri</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Mus cras lacus tellus morbi viverra
               suspendisse ornare. Sit volutpat, volutpat ut
@@ -26,7 +26,7 @@ const CommentsC = () => {
           </div>
 
         </div>
-        <div className="comments_container-bottom">
+   
 
           <div className="comments_container_items">
             <div className="comments_container-bottom">
@@ -68,7 +68,7 @@ const CommentsC = () => {
 
         </div>
 
-      </div>
+    
     </section>
 
   )

@@ -10,9 +10,13 @@ const RecentEpisodes = () => {
       <div className='episodes_container'>
         <div className="episodes_top">
           <div className="episodes-top_container_left">
-            <h2 className='episodes-h2'>Recent Episodes</h2>
-            <p>Apparently we had reached a great height in the atmosphere, for
-              the sky was a dead black.
+            <h2 className='episodes-h2'>Son bölümlər</h2>
+            <p className='recent_episodes_desc'>Müştəri strategiyaları, bir şirkətin müştəri ilə əlaqələrini tənzimləmək, üçün təyin olunan bir qrup strateji və taktika bütünüdür.
+
+
+
+
+
             </p>
           </div>
           

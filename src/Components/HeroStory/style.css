@@ -82,9 +82,13 @@
     background: none;
     /* 150% */
 }
-.herostory_container_right   .story_image img {
-    margin-top: 27.7rem;
+.herostory_container_right   .story_image .image_pulse {
+    margin-bottom: -29rem;
     width: 571px;
     height: 146px;
     flex-shrink: 0;; 
+}
+
+.story_btn:hover {
+    opacity: 0.75;
 }

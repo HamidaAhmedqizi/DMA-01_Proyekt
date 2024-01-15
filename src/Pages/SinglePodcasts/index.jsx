@@ -19,8 +19,7 @@ const SinglePodcasts = () => {
        <Author/>
        <RecentEpisodes/>
        <Sponsors/>
-       <Footers />
-      <CopyRight />
+      
        
 
     </div>

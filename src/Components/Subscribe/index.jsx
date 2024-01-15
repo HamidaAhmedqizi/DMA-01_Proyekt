@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import '../Subscribe/Sub.css';
 
 const Subscribe = () => {
@@ -16,10 +16,10 @@ const Subscribe = () => {
 
                 </div>
                 <div className="SubscribeCenter">
-                    <h2 className='subtitle'>Receive new episodes in your inbox.</h2>
+                    <h2 className='subtitle'>Yeni epizodları e-poçtunuzda qəbul edin.</h2>
                     <div className="subinput-button">
-                        <input  className='subemail' type="text" placeholder='Enter Your Email' />
-                        <button className='subsbutton'>Subscribe</button>
+                        <input  className='subemail' type="text" placeholder='Emailinizi daxil edin' />
+                        <button className='subsbutton'>Abunə olun</button>
                     </div>
                 </div>
                 <div className="SubscribeRight">

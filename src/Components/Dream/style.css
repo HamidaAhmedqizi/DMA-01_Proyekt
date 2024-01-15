@@ -19,7 +19,7 @@
 }
 
 .dream_container_left .dream_container_title {
-    width: 280px;
+    width: 460px;
     color: var(--Black, #14142B);
     font-family: Inter;
     font-size: 32px;
@@ -29,7 +29,7 @@
     /* 38.4px */
 }
 .dream_container_left .dream_container_desc {
-    width: 420px;
+    width: 460px;
     color: var(--Black, #14142B);
 
 /* Body */
@@ -40,7 +40,7 @@ font-weight: 400;
 line-height: 150%; /* 24px */
 }
 .dream_container_left .dream_container_text {
-    width: 420px;
+    width: 500px;
     color: var(--Black, #14142B);
     font-family: Inter;
     font-size: 16px;
@@ -51,7 +51,7 @@ line-height: 150%; /* 24px */
 .dream_purpleLine {
     position: absolute;
     top: 19rem;
-    right: 0;
+    right: -6rem ;
 }
 .man_speaking {
     width: 100%;

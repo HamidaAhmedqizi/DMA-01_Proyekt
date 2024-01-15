@@ -5,7 +5,6 @@ import line_purple from '../../Images/Line_purple.png'
 import line_green from '../../Images/Line_green.png'
 import bigLine from '../../Images/BigLine.png'
 
-
 const Welcome = () => {
     return (
         <section className='welcome'>
@@ -15,19 +14,16 @@ const Welcome = () => {
                         <img src={mic_men} alt="" />
                         <img className='line_purple' src={line_purple} alt="" />
                         <img className='line_green' src={line_green} alt="" />
-
                     </div>
-
                 </div>
                 <div className="welcome_container_right">
                     <div className="welcome_text_content">
-                        <p className='welcome_blue-text'>About The Host</p>
-                        <h2 className='welcone_blue_title'>Hey there, I’m Andrew Jonson and welcome to my Podcast</h2>
-                        <p className='welcome_blue-desc'>Apparently we had reached a great height in the atmosphere,
-                            for the sky was a dead black, and the stars had ceased to twinkle. </p>
+                        <p className='welcome_blue-text'>Təqdimatçı Haqqında</p>
+                        <h2 className='welcone_blue_title'>Salam, mən Andrew Jonson və mənim Podcast saytıma  xoş gəlmisiniz</h2>
+                        <p className='welcome_blue-desc'>Podcastlar genelliklə dinləyicilər ilə daha yaxın və şəxsi əlaqə yaratmağa kömək edir. Mütəxəssislər və müstəqil şəxslər podcastlar aracılığı ilə öz biliklərini paylaşaraq dinləyicilərə qıymətli məlumatlar vermək imkanına sahib olurlar.</p>
                     </div>
                     <div className="welcome_btn">
-                        <button>Know More</button>
+                        <button>Daha Çox Məlumat</button>
                     </div>
                     <div className='bigline'>
                         <img src={bigLine} alt="" />

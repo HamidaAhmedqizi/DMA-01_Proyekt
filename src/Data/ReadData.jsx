@@ -1,19 +1,19 @@
-import images1 from '../Images/read1.png'
-import images2 from '../Images/read2.png'
+import images1 from '../Images/read1.png';
+import images2 from '../Images/read2.png';
 
-const readData =[
+const readData = [
     {
         id: 1,
         image: images1,
-        title: 'Getting the first 100 customers for your business',
+        title: 'Biznesiniz üçün ilk 100 müştəri əldə etmək',
         text: 'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.'
     },
     {
         id: 2,
         image: images2,
-        title: 'Apparently we had reached a great height in the atmosphere, ...',
+        title: 'Biznesin inkişafında sosial şəbəkələrin rolu,.....',
         text: 'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.'
     },
-]
+];
 
-export default readData
+export default readData;

@@ -18,8 +18,8 @@
 .episodeitem_text_icon .episodeitem_listen {
     display: flex;
     align-items: center;
-    gap: 0.8rem;
-    background-color: red;
+    gap: 1rem;
+  
     width: 126px;
 }
 
@@ -30,7 +30,7 @@
 .images_episodeitem .episode_icon {
     position: absolute;
     top: 1.6rem;
-    right: 1.6rem;
+    right: -2rem;
     cursor: pointer;
     transition: var(--transition);
 }
@@ -40,7 +40,8 @@
 }
 
 .episodeitem_text_icon .episodeItem_title {
-    max-width: 41.499rem;
+     width: 416px;
+    
     color: var(--black-color);
     font-family: Inter;
     font-size: 2.4rem;
@@ -57,7 +58,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    background-color: red;
+    
     /* 24px */
 }
 

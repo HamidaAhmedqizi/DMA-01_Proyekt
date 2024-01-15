@@ -1,7 +1,7 @@
 .comment{
     width: 100%;
     padding: 100px;
-    padding-bottom: 240px;
+    
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -13,8 +13,8 @@
 }
 .comment_top{
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    /* justify-content: space-between;
+   gap: 5rem; */
 }
 .comment_top .comments-top_container_left {
     display: flex;
@@ -41,11 +41,10 @@
     line-height: 150%; /* 24px */
 }
 
-/* .comments_container_items {
-    display: flex;
-    align-items: center;
-    justify-content: s;
-} */
+
 .swipper-wrapper{
     width: 100%;
+  
+   
 }
+ 

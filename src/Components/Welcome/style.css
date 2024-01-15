@@ -66,17 +66,18 @@
 
 .welcone_blue_title {
     color: var(--Black, #14142B);
-    width: 315px;
+    width: 450px;
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    
  
 }
 
 .welcome_text_content .welcome_blue-desc {
-    max-width: 340px;
+    width: 400px;
     color: var(--Black, #14142B);
     font-family: Inter;
     font-size: 16px;

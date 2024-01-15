@@ -9,9 +9,9 @@ const Dream = () => {
    <section className='dream'>
 <div className="dream_container">
     <div className="dream_container_left">
-        <h2 className='dream_container_title'>A small story about a big dream  —  </h2>
-        <p className='dream_container_desc'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon</p>
-        <p className='dream_container_text'>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and </p>
+        <h2 className='dream_container_title'>The Courage to be Disliked kitabından kiçik hissə</h2>
+        <p className='dream_container_desc'>Kitab insanlara "sevilmə və qəbullanma arzusunun" ruhi azadlığımıza zidd olduğunu,hədəfsiz olub anın gətirdiyi yönə getməyin əsl xoşbəxtlik gətirdiyini </p>
+        <p className='dream_container_text'> Xoşbəxtliyə ddımda  nail olacağını "özünü  qəbul etmə","insanları yoldaş kimi görmək","insanlara faydalı olmaq" və başqa məsəlləri gənc və filosof arasında gedən dialoqla izah edir. </p>
         <div className='dream_purpleLine'>
         <img src={purpleLine} alt="" />
         </div>
@@ -28,4 +28,4 @@ const Dream = () => {
   )
 }
 
-export default Dream
+export default Dream 

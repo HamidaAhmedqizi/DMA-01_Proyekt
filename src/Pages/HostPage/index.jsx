@@ -5,6 +5,7 @@ import Vlogger from '../../Components/Vlogger'
 import Dream from '../../Components/Dream'
 import Brands from '../../Components/Brands'
 import Welcome from '../../Components/Welcome'
+import Subscribe from '../../Components/Subscribe'
 
 const Host = () => {
   return (
@@ -15,6 +16,7 @@ const Host = () => {
       <Vlogger/>
       <BigCards />
       <Hero />
+      <Subscribe/>
 
     </div>
   )

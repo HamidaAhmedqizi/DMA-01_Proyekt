@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-const   index = () => {
+const   CopyRight = () => {
   return (
     <section className='copyright'>
         <div className="copyright_container">
@@ -12,4 +12,4 @@ const   index = () => {
   )
 }
 
-export default index 
+export default CopyRight 

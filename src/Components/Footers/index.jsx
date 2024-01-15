@@ -9,7 +9,7 @@ import images3 from '../../Images/footer3.png';
 import images4 from '../../Images/footer4.png';
 // import images5 from '../../Images/Google Podcast.png';
 
-const index = () => {
+const Footers = () => {
   const images = [images1, images2, images3, images4, ];
   return (
     <section className='footer'>
@@ -28,7 +28,7 @@ const index = () => {
         <div className="footer_container_item">
           <div className="footer_title_pages">
             <div className="footer_title">
-              <h4 className='footer_h4'>Pages</h4>
+              <h4 className='footer_h4'>Səhifələr</h4>
             </div>
             <div className="footer_pages">
               {
@@ -90,4 +90,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Footers
